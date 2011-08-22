@@ -17,5 +17,12 @@
   		<version>4.8.2</version>
   		<scope>test</scope>
   	</dependency>
+  	<dependency>
+      <!--  it take care of dependencies -->
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.6.2</version>
+      <scope>runtime</scope>
+    </dependency>
   </dependencies>
 </project>
