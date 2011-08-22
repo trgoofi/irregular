@@ -9,4 +9,17 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <context-param>
+    <description>specify constant class name for ConstantListener</description>
+    <param-name>constantClassName</param-name>
+    <param-value>
+      com.trgoofi.irregular.web.listener.ConstantDefinition,
+      comma.separated.OtherConstant
+    </param-value>
+  </context-param>
+  <listener>
+    <description>register constant</description>
+    <listener-class>com.trgoofi.irregular.web.listener.ConstantListener</listener-class>
+  </listener>
 </web-app>
